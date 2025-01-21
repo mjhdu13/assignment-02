@@ -8,10 +8,6 @@
   font-style: normal;
 }
 
-
-/* shared related style */
-
-
 /* navigation related style */
 .nav{
   display: flex;
@@ -64,29 +60,29 @@ color: rgba(93, 88, 239, 1);
   font-weight: 600px;
 }
 
-.fa-solid{
-width: 30px;
-height: 30px;
-}
-
 /* banner related style */
 .banner-section{
   display: flex;
   /* gap: 50px; */
   justify-content: space-around;
-  /* max-height: 575px; */
+  height: 575px;
 }
 
 .banner-text-div{
   padding-top: 122px;
   padding-bottom: 122px;
-  /* align-items: center; */
+  align-items: center;
+  height:331px;
 }
 
-.banner-text-div h1{
-font-size: 56px;
-font-weight: bold;
-}
+.banner-image-div{
+  height: 575px;
+  }
+
+  .banner-text-div h1{
+  font-size: 56px;
+  font-weight: bold;
+  }
 
 .color-1{
 color: orange;
@@ -113,10 +109,10 @@ font-weight: bold;
 margin-top: 24px;
 }
 
-.banner-section img{
-  height: auto;
-  width: auto;
+#kid{
+  max-height: auto;
 }
+
 
 /* this is the media query part for small devices like mobile*/
 
@@ -138,6 +134,18 @@ margin-top: 24px;
     width: 30px;
   }
   
+  /* banner responsive */
+  .banner-section{
+    flex-direction: column-reverse;
+    gap: 5px;
+    margin-top: 50px;
+    /* justify-content: center;
+    align-items: center; */
+    }
+
+    .banner-text-div{
+      text-align: center;
+    }
 
 }
 
