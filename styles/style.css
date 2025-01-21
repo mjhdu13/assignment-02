@@ -1,0 +1,105 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/* shared related style */
+
+
+/* navigation related style */
+.nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* margin: 1.25rem 8.75rem; */
+}
+
+.nav-div-1{
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+
+#school{
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-ul{
+  display: flex;
+  gap: 32px;
+  list-style: none;
+  font-size:1.25rem ;
+  font-weight: medium;
+}
+
+.li1{
+  color: orange;
+}
+.li2{
+color: skyblue;
+}
+.li3{
+color: rgba(5, 212, 223, 1) ;
+}
+.li4{
+color: rgba(93, 88, 239, 1);
+}
+
+.nav-btn{
+  width: 197px;
+  height: 50px;
+  background-color: orange;
+  border-radius: 12px;
+  color: white;
+  padding: 10px 10px;
+  border: none;
+  font-size: 20px;
+  font-weight: 600px;
+}
+
+.fa-solid{
+width: 30px;
+height: 30px;
+}
+
+
+
+/* this is the media query part for small devices like mobile*/
+
+@media screen and (max-width: 576px) {
+  /* navbar responsive */
+  .nav{
+    border: 1px solid orange;
+    justify-content: space-between;
+    margin: 0;
+  }
+
+  .nav-ul, #school, .nav-btn{
+    display: none;
+  }
+
+  #icon{
+    font-size: 30px;
+    height: 30px;
+    width: 30px;
+  }
+  
+
+}
+
+
+
+/* extra media query */
+@media screen and (min-width:577px) {
+  .nav i{
+    display: none;
+    /* visibilily */
+  }
+}
