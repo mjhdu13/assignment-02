@@ -36,7 +36,7 @@
   gap: 32px;
   list-style: none;
   font-size:1.25rem ;
-  font-weight: medium;
+  font-weight: bold;
 }
 
 .li1{
@@ -69,7 +69,54 @@ width: 30px;
 height: 30px;
 }
 
+/* banner related style */
+.banner-section{
+  display: flex;
+  /* gap: 50px; */
+  justify-content: space-around;
+  /* max-height: 575px; */
+}
 
+.banner-text-div{
+  padding-top: 122px;
+  padding-bottom: 122px;
+  /* align-items: center; */
+}
+
+.banner-text-div h1{
+font-size: 56px;
+font-weight: bold;
+}
+
+.color-1{
+color: orange;
+}
+
+.color-2{
+color: skyblue;
+}
+
+.banner-text-div p{
+font-size: 20px;
+} 
+
+.banner-btn{
+width: 197px;
+height: 50px;
+background-color: black;
+border-radius: 12px;
+padding: 10px 10px;
+color: white;
+border: none;
+font-size: 20px;
+font-weight: bold;
+margin-top: 24px;
+}
+
+.banner-section img{
+  height: auto;
+  width: auto;
+}
 
 /* this is the media query part for small devices like mobile*/
 
