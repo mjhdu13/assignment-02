@@ -116,13 +116,24 @@ margin-top: 24px;
 /* curriculum styles */
 .cc-section{
   background-image:url("/assets/bg.png") ;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  /* gap: 80px; */
 }
 
 .cc-box-container{
   display: flex;
   justify-content: center;
   gap: 40px;
+  margin-top: 80px;
+  margin-bottom: 80px;
 } 
+
+.cc-box-1, .cc-box-2, .cc-box-3{
+  width: 370px;
+  height: 475px;
+}
+
 
 .cc-header{
   font-size: 46px;
