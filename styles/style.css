@@ -113,6 +113,30 @@ margin-top: 24px;
   max-height: auto;
 }
 
+/* curriculum styles */
+.cc-section{
+  background-image:url("/assets/bg.png") ;
+}
+
+.cc-box-container{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+} 
+
+.cc-header{
+  font-size: 46px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.direction{
+  color: orange;
+  /* width: 60px;
+  height: 60px; */
+  font-size: 44px;
+  text-align: center;
+}
 
 /* this is the media query part for small devices like mobile*/
 
@@ -146,6 +170,9 @@ margin-top: 24px;
     .banner-text-div{
       text-align: center;
     }
+
+    /* standard curriculum responsive */
+    
 
 }
 
