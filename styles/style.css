@@ -14,12 +14,10 @@
 .common-pic{
   padding-top: 20px;
 }
-
  .common-header{
  font-size: 25px;
  font-weight: bold;
  }
- 
  .common-p{
  color: rgba(128, 128, 128, 1);
  font-weight: 500px;
@@ -27,12 +25,10 @@
  line-height: 28.3px;
  padding: 33px 40px;
  }
- 
  .story-box-1, .story-box-2, .story-box-3, .story-box-4, .story-box-5{
   background-color: white;
   border-radius: 12px;
  }
-
  .story-btn-1, .story-btn-2, .story-btn-3, .story-btn-4, .story-btn-5{
   width: 174px;
   height: 38px;
@@ -50,20 +46,16 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  /* margin: 1.25rem 8.75rem; */
 }
-
 .nav-div-1{
   display: flex;
   align-items: center;
   gap: 11px;
 }
-
 #school{
   font-size: 2rem;
   font-weight: bold;
 }
-
 .nav-ul{
   display: flex;
   gap: 32px;
@@ -71,7 +63,6 @@
   font-size:1.25rem ;
   font-weight: bold;
 }
-
 .li1{
   color: orange;
 }
@@ -84,7 +75,6 @@ color: rgba(5, 212, 223, 1) ;
 .li4{
 color: rgba(93, 88, 239, 1);
 }
-
 .nav-btn{
   width: 197px;
   height: 50px;
@@ -100,40 +90,32 @@ color: rgba(93, 88, 239, 1);
 /* banner related style */
 .banner-section{
   display: flex;
-  /* gap: 50px; */
   justify-content: space-around;
   height: 575px;
   margin-top: 70px;
 }
-
 .banner-text-div{
   padding-top: 122px;
   padding-bottom: 122px;
   align-items: center;
   height:331px;
 }
-
 .banner-image-div{
   height: 575px;
   }
-
   .banner-text-div h1{
   font-size: 56px;
   font-weight: bold;
   }
-
 .color-1{
 color: orange;
 }
-
 .color-2{
 color: skyblue;
 }
-
 .banner-text-div p{
 font-size: 20px;
 } 
-
 .banner-btn{
 width: 197px;
 height: 50px;
@@ -146,7 +128,6 @@ font-size: 20px;
 font-weight: bold;
 margin-top: 24px;
 }
-
 #kid{
   max-height: auto;
 }
@@ -157,63 +138,50 @@ margin-top: 24px;
   padding-top: 60px;
   padding-bottom: 60px;
 }
-
 .cc-box-container{
   display: flex;
   justify-content: center;
-  /* align-items: center; */
   text-align: center;
   gap: 40px;
   margin-top: 80px;
   margin-bottom: 80px;
 } 
-
 .cc-box-1, .cc-box-2, .cc-box-3{
   width: 370px;
   height: 475px;
 }
-
-
 .cc-box-1{
 border-radius: 20px;
 background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(222, 245, 255, 1));
 }
-
 .cc-box-2{
   border-radius: 20px;
 background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(255, 244, 220, 1));
-
 }
-
 .cc-box-3{
 border-radius: 20px;
 background-image: linear-gradient(to top, rgba(255,0,0,0),rgba(242, 232, 255, 1));
 }
-
 .cch51{
 color: skyblue;
 font-size: 15.09px;
 font-weight: bold;
 }
-
 .cch52{
 color: orange;
 font-size: 15.09px;
 font-weight: bold;
 }
-
 .cch53{
 color: rgba(135, 0, 255, 1);
 font-size: 15.09px;
 font-weight: bold;
 }
-
 .cc-header{
   font-size: 46px;
   font-weight: bold;
   text-align: center;
 }
-
 .direction{
   color: orange;
   /* width: 60px;
@@ -227,37 +195,31 @@ font-weight: bold;
 background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgba(254, 164, 3, 0.2973));
 text-align: center;
 }
-
 .story-title{
   font-size: 46px;
   font-weight: bold;
   text-align: center;
 }
-
 .box-div{
   display: flex;
   gap: 30px;
   justify-content: center;
 }
-
 .four-box{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 15px;
   text-align: center;
 }
-
 .story-heading-1{
   font-size: 24px;
   font-weight: bold;
 }
-
 .story-description{
   font-size: 15.34px;
   font-weight: medium;
   color: rgba(102, 102, 102, 1);
 }
-
 .story-button{
   width: 197px;
   height: 50px;
@@ -270,7 +232,6 @@ text-align: center;
   margin-top: 80px;
   margin-bottom: 60px;
 }
-
 .story-btn-1{
 background-color:rgba(60, 216, 232, 1) ;
 }
@@ -289,31 +250,26 @@ background-color:rgba(60, 216, 232, 1) ;
   background-color: rgba(1, 172, 253, 1);
   padding: 123px 228px 174px 140px;
  }
-
  .footer-logo-heading{
   display: flex;
   gap: 10px;
   align-items: center;
  }
-
 #image-sizer{
   width: 82px;
   height: 82px;
   background-color: white;
 }
-
  .kids-edu{
   font-size: 42px;
   font-weight: bold;
  }
-
  .footer-ul{
   list-style: none;
   font-size: 20px;
   line-height: 50px;
   padding-left: 0;
  }
-
 
 /* the section where i've practiced marquee for the first time */
 
@@ -327,7 +283,6 @@ background-color:rgba(60, 216, 232, 1) ;
   width: 100%;
   white-space: nowrap;
 }
-
 .marquee p {
   position: absolute;
   width: auto;
@@ -352,7 +307,6 @@ background-color:rgba(60, 216, 232, 1) ;
   }
 }
 
-
 /* this is the media query part for small devices like mobile*/
 
 @media screen and (max-width: 576px) {
@@ -362,11 +316,9 @@ background-color:rgba(60, 216, 232, 1) ;
     justify-content: space-between;
     margin: 0;
   }
-
   .nav-ul, #school, .nav-btn{
     display: none;
   }
-
   #icon{
     font-size: 30px;
     height: 30px;
@@ -378,53 +330,42 @@ background-color:rgba(60, 216, 232, 1) ;
     flex-direction: column-reverse;
     gap: 5px;
     margin-top: 50px;
-    /* justify-content: center;
-    align-items: center; */
     }
-
     .banner-text-div{
       text-align: center;
     }
-
+  
     /* standard curriculum responsive */
-
     .cc-section{
       margin-top: 800px;
     }
-
     .cc-box-container{
       flex-direction: column;
-      /* grid-template-columns: repeat(1, 1fr); */
       padding-left: 50px;
     }
+
 /* our story responsive */
   .story-box-1{
     display: none;
   }
-
   .four-box{
     flex-direction: column;
   }
  .direction{
   display: none;
  }
+
   /* footer responsive */
-  
   .footer-section{
     flex-direction: column;
     padding-left:20px;
   }
 
-  
-
 }
-
-
 
 /* extra media query */
 @media screen and (min-width:577px) {
   .nav i{
     display: none;
-    /* visibilily */
   }
 }
