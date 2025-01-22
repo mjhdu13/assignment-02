@@ -103,6 +103,7 @@ color: rgba(93, 88, 239, 1);
   /* gap: 50px; */
   justify-content: space-around;
   height: 575px;
+  margin-top: 70px;
 }
 
 .banner-text-div{
@@ -313,6 +314,43 @@ background-color:rgba(60, 216, 232, 1) ;
   padding-left: 0;
  }
 
+
+/* the section where i've practiced marquee for the first time */
+
+.marquee {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .1);
+  border: 1px solid rgba(0, 0, 0, .15);
+  background-color: #1cb9d1;
+  overflow: hidden;
+  position: relative;
+  height: 50px;
+  width: 100%;
+  white-space: nowrap;
+}
+
+.marquee p {
+  position: absolute;
+  width: auto;
+  height: 100%;
+  margin: 0;
+  line-height: 50px;
+  text-align: center;
+  transform: translateX(100%);
+  animation: scroll-left 20s linear infinite;
+  font-weight: 600;
+  font-size: 30px;
+  color: yellow;
+}
+
+@keyframes scroll-left {
+  0% {
+      transform: translateX(100%);
+  }
+
+  100% {
+      transform: translateX(-100%);
+  }
+}
 
 
 /* this is the media query part for small devices like mobile*/
