@@ -30,6 +30,17 @@
  
  .story-box-1, .story-box-2, .story-box-3, .story-box-4, .story-box-5{
   background-color: white;
+  border-radius: 12px;
+ }
+
+ .story-btn-1, .story-btn-2, .story-btn-3, .story-btn-4, .story-btn-5{
+  width: 174px;
+  height: 38px;
+  border-radius: 47px;
+  border: none;
+  color: white;
+  font-size: 15.34px;
+  font-weight: 300px ;
  }
  
 /* navigation related style */
@@ -223,11 +234,8 @@ text-align: center;
 .box-div{
   display: flex;
   gap: 30px;
-}
-
-/* .box-div>div{
   justify-content: center;
-} */
+}
 
 .four-box{
   display: grid;
@@ -256,8 +264,19 @@ text-align: center;
   border: none;
   font-size: 20px ;
   font-weight: bold;
+  margin-top: 80px;
+  margin-bottom: 60px;
 }
 
+.story-btn-1{
+background-color:rgba(60, 216, 232, 1) ;
+}
+ .story-btn-2, .story-btn-4, .story-btn-5{
+  background-color: rgba(149, 178, 38, 1);
+ }
+ .story-btn-3{
+  background-color: rgba(93, 88, 240, 1);
+ }
 /* this is the media query part for small devices like mobile*/
 
 @media screen and (max-width: 576px) {
@@ -298,6 +317,15 @@ text-align: center;
       padding-left: 50px;
       padding-top: 600px;
     }
+/* our story responsive */
+  .story-box-1{
+    display: none;
+  }
+
+  .four-box{
+    flex-direction: column;
+  }
+
 }
 
 
