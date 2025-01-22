@@ -40,7 +40,9 @@
   border: none;
   color: white;
   font-size: 15.34px;
-  font-weight: 300px ;
+  font-weight: 300px ; 
+  position: relative;
+  top: -25px;
  }
  
 /* navigation related style */
@@ -347,11 +349,15 @@ background-color:rgba(60, 216, 232, 1) ;
     }
 
     /* standard curriculum responsive */
+
+    .cc-section{
+      margin-top: 800px;
+    }
+
     .cc-box-container{
       flex-direction: column;
       /* grid-template-columns: repeat(1, 1fr); */
       padding-left: 50px;
-      padding-top: 600px;
     }
 /* our story responsive */
   .story-box-1{
@@ -361,11 +367,17 @@ background-color:rgba(60, 216, 232, 1) ;
   .four-box{
     flex-direction: column;
   }
-
+ .direction{
+  display: none;
+ }
   /* footer responsive */
   
+  .footer-section{
+    flex-direction: column;
+    padding-left:20px;
+  }
 
-
+  
 
 }
 
