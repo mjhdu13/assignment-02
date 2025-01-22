@@ -287,15 +287,30 @@ background-color:rgba(60, 216, 232, 1) ;
   padding: 123px 228px 174px 140px;
  }
 
- .footer-pic-heading{
+ .footer-logo-heading{
   display: flex;
   gap: 10px;
+  align-items: center;
  }
 
- /* #kids-edu{
+#image-sizer{
+  width: 82px;
+  height: 82px;
+  background-color: white;
+}
+
+ .kids-edu{
   font-size: 42px;
   font-weight: bold;
- } */
+ }
+
+ .footer-ul{
+  list-style: none;
+  font-size: 20px;
+  line-height: 50px;
+  padding-left: 0;
+ }
+
 
 
 /* this is the media query part for small devices like mobile*/
